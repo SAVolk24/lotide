@@ -5,9 +5,3 @@ const assertEqual = function (actual, expected) {
     console.log("🛑🛑🛑 Assertion Failed: " + actual + " === " + expected);
   }
 };
-
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
-assertEqual("This was fun", "This waas fun");
-assertEqual(20, 20, 20, 20);
-assertEqual("SuPeRdUpErFuN", "SupeRdUpErFun");
